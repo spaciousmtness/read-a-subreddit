@@ -1,0 +1,8 @@
+ok: false
+error:
+  code: EMPTY_RESULT
+  message: Reddit post zzzzzzz9 is not accessible (HTTP 404). returned no data
+  help: The page structure may have changed, or you may need to log in
+  exitCode: 66
+# AutoFix: re-run with --trace=retain-on-failure for trace artifact
+# opencli reddit read --trace retain-on-failure

@@ -1,0 +1,7 @@
+ok: false
+error:
+  code: UNKNOWN
+  message: connect ECONNREFUSED 127.0.0.1:9499
+  exitCode: 1
+# AutoFix: re-run with --trace=retain-on-failure for trace artifact
+# opencli reddit hot --trace retain-on-failure

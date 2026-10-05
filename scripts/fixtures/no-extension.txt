@@ -1,0 +1,10 @@
+ok: false
+error:
+  code: BROWSER_CONNECT
+  message: Browser Bridge extension not connected
+  help: |-
+    Make sure Chrome/Chromium is open and the OpenCLI extension is enabled.
+    If not installed:
+      1. Download: https://github.com/jackwener/opencli/releases
+      2. Open chrome://extensions → Developer Mode → Load unpacked
+  exitCode: 69

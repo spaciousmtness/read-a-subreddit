@@ -1,0 +1,22 @@
+[
+  {
+    "type": "POST",
+    "author": "user_a",
+    "score": 3,
+    "text": "Wifi disconnection, unable to reconnect unless I restart\n\nMine arrived yesterday. This happens every time the device sits idle or goes to sleep. Has there ever been a fix for this, since I've seen the device have this trouble since it shipped. I've updated already.",
+    "post_hint": "",
+    "url_overridden_by_dest": "",
+    "preview_image_url": "",
+    "gallery_urls": []
+  },
+  {
+    "type": "L0",
+    "author": "user_b",
+    "score": 1,
+    "text": "There are known issues with WiFi but generally an update solves this. If it doesn't, as is the case with you, support should be able to help you get it working.\n\nYou can reach them at hello@daylightcomputer.com. They'll be happy to help you!",
+    "post_hint": "",
+    "url_overridden_by_dest": "",
+    "preview_image_url": "",
+    "gallery_urls": []
+  }
+]
