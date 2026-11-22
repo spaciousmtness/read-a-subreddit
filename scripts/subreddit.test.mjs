@@ -38,6 +38,7 @@ test("failures are read from OpenCLI's YAML and explained in plain words", () =>
   assert.match(explain(69, parseError(fx("no-extension.txt"))), /OpenCLI extension/);
   assert.match(explain(1, parseError(fx("no-browser.txt"))), /Nothing is listening/);
   assert.match(explain(66, parseError(fx("read-missing.txt"))), /returned nothing/);
+  assert.match(explain(1, { message: '"<body class=..." is not valid JSON' }), /human check/);
   assert.match(explain(1, { message: '"<body class=..." is not valid JSON' }), /headless/);
 });
 

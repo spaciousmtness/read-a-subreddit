@@ -65,7 +65,7 @@ export function explain(status, err) {
   if (status === 75) return "Reddit took too long to answer. Run again in a minute.";
   if (status === 66 || code === "EMPTY_RESULT") return "Reddit returned nothing for this.";
   if (/<body|not valid JSON/.test(msg))
-    return "Reddit served a block page. This happens with headless Chrome; use a normal (windowed) Chrome.";
+    return "Reddit served a block page, not posts. Most often it wants a human check: open reddit.com in that Chrome, pass the check or sign in, then run again. A headless Chrome gets this page every time.";
   return msg || `opencli exited ${status}`;
 }
 

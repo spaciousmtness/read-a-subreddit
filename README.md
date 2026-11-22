@@ -45,7 +45,7 @@ Say three things:
 ## If it complains
 
 - **"OpenCLI cannot reach Chrome":** Chrome is closed, or the extension is off.
-- **"Reddit served a block page":** it's using a hidden (headless) Chrome. Use your normal Chrome.
+- **"Reddit served a block page":** Reddit wants a human check in that Chrome. Open reddit.com there, pass the check or sign in, and run again. A hidden (headless) Chrome gets this every time, so use a normal one.
 - **Check the script itself:** run `node --test scripts/subreddit.test.mjs` in this folder. Ten tests should pass.
 
 ## What's here
